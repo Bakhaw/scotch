@@ -137,6 +137,8 @@ a:hover {
 .pre-footer {
   padding-top: 20px;
   background-color: #222222;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
 }
 .pre-footer h4 {
     color: #999;
@@ -155,6 +157,21 @@ a:hover {
   border-radius: 5px;
   background-color: #000;
   border-color: #000;
-
+}
+#high {
+  font-weight: bold;
+  font-size: 18px;
+}
+.fa {
+  border-radius: 50%;
+}
+.fa-twitter-square {
+  background-color: #1DA1F2;
+}
+.fa-facebook-square {
+  background-color: #3B5998;
+}
+.fa-github-square {
+  background-color: #333333;
 }
 /*End Pre-Footer*/
