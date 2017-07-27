@@ -1,0 +1,84 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+/*All*/
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+/*End All*/
+
+
+/*Navbar*/
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-default {
+  background-color: #FFFFFF;
+  padding-top: 5px;
+}
+.navbar-default a {
+  color: #000!important;
+  font-family: 'Nunito', sans-serif;
+  font-size: 11px;
+}
+.navbar-default #signUp {
+  background-color: #FFB347;
+  padding: 11px 20px;
+}
+/*End Navbar*/
+
+/*header*/
+.header {
+  background-color: #FFDD57;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  font-family: 'Nunito', sans-serif;
+}
+.header h1 {
+    font-size: 50px;
+}
+.header p {
+  font-size: 20px;
+}
+.header .btn-white {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+  color: #3273dc;
+}
+.header .btn-white:hover {
+  color: #3273dc;
+}
+.header .btn-pink {
+  background-color: #ff2b56;
+  border: 2px solid #ff2b56;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 20px;
+}
+/*End header*/
+
+/*Thumbnails*/
+#thumbnails .thumbnail:hover {
+  box-shadow: 3px 3px 3px #939393;
+  transition: 0.3s;
+}
+#thumbnails h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+#thumbnails p {
+  color: #636363;
+}
+#sponsor {
+  background-color: #e2e1e1;
+  border-radius: 3px;
+}
+/*End Thumbnails*/
