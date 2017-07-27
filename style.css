@@ -141,6 +141,16 @@ a:hover {
 .pre-footer h4 {
     color: #999;
 }
+.pre-footer h3,
+.pre-footer p {
+  color: white;
+}
+.pre-footer a,
+.pre-footer ul {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
 .pre-footer .thumbnail {
   border-radius: 5px;
   background-color: #000;
