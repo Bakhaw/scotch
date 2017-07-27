@@ -66,6 +66,9 @@ a:hover {
 /*End header*/
 
 /*Thumbnails*/
+#thumbnails {
+  background-color: #F5F5F5;
+}
 #thumbnails .thumbnail:hover {
   box-shadow: 3px 3px 3px #939393;
   transition: 0.3s;
@@ -82,3 +85,66 @@ a:hover {
   border-radius: 3px;
 }
 /*End Thumbnails*/
+
+/*Posts*/
+#posts {
+  background-color: #F5F5F5;
+}
+#posts img {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+/*End Posts*/
+
+/*Join Scotch*/
+#join-scotch {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background-color: #247BE6;
+  margin-top: 20px;
+}
+#join-scotch h2 {
+  font-size: 60px;;
+}
+#join-scotch h4 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.box {
+  background-color: #1862AB;
+  margin-top: 20px;
+}
+.list-group {
+  font-family: 'Nunito', sans-serif;
+  margin-top: 30px;
+}
+.list-group p {
+  font-size: 16px;
+}
+#scotch-free {
+  background-color: #11D5B5;
+  border-color: #11D5B5;
+  color: white;
+}
+#scotch-premium {
+  background-color: #F6A617;
+  border-color: #F6A617;
+  color: white;
+}
+/*End Join Scotch*/
+
+/*Pre-Footer*/
+.pre-footer {
+  padding-top: 20px;
+  background-color: #222222;
+}
+.pre-footer h4 {
+    color: #999;
+}
+.pre-footer .thumbnail {
+  border-radius: 5px;
+  background-color: #000;
+  border-color: #000;
+
+}
+/*End Pre-Footer*/
